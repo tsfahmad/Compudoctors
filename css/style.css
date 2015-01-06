@@ -1,13 +1,13 @@
 
-#mainHeader{
+#mainHeader {
     background: linear-gradient(rgb(229, 226, 226), white);
     height: 37px;
     width: 1000px;
-    margin-left: 190px;
+    margin: 0 auto;
     box-shadow: 4px 3px 10px -1px rgb(206, 184, 229);
 }
 
-.menu{
+.menu {
     float: left;
     height: 36px;
     width: 120px;
@@ -17,11 +17,62 @@
     font-weight: bold;
 }
 
-.menu:hover{
+.menu:hover {
     background: linear-gradient(rgb(249, 247, 247), rgb(218, 218, 218));
     color: black;
     height: 34px;
     margin-top: 2px;
     cursor: pointer;
-    box-shadow: 0px -2px 0px 0px #BC33FF inset;
+    box-shadow: 0 -2px 0 0 #BC33FF inset;
+}
+
+#container {
+    /*height: 92%;*/
+    width: 100%;
+    margin-top: 1%;
+    /*border: 2px solid lightslategrey;*/
+}
+
+.content {
+    /*border: 2px solid darkslategray;*/
+    /*height: 100%;*/
+    width: 1000px;
+    margin-left: 190px;
+}
+
+#contact {
+    width: 245px;
+    margin: 0 auto;
+}
+
+#matter {
+    margin-top: 2px;
+}
+
+#bodyLeftCol{
+    float: left;
+    width: 316px;
+    height: 260px;
+}
+
+#bodyMdlCol{
+    float: left;
+    width: 316px;
+    height: 260px;
+    margin-left: 14px;
+}
+
+#bodyRightCol{
+    float: left;
+    width: 316px;
+    height: 260px;
+    margin-left: 14px;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.horizon{
+    margin-top: 30px;
 }
