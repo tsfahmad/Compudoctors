@@ -1,3 +1,6 @@
+.mainBody{
+    background: linear-gradient(rgb(229, 226, 226), white);
+}
 
 #mainHeader {
     background: linear-gradient(rgb(229, 226, 226), white);
