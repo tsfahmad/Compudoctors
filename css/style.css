@@ -50,27 +50,37 @@
 
 #matter {
     margin-top: 2px;
+    margin-bottom: 15px;
+    width: 95%;
 }
 
-#bodyLeftCol{
-    float: left;
+#bodyLeftCol, #bodyMdlCol, #bodyRightCol{
+    /*float: left;
     width: 316px;
+    /*height: 260px*//*;*/
+    float: left;
+    width: 937px;
     height: 260px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 3px 1px gainsboro;
 }
 
-#bodyMdlCol{
+/*#bodyMdlCol{
     float: left;
     width: 316px;
     height: 260px;
     margin-left: 14px;
-}
+}*/
 
+/*
 #bodyRightCol{
     float: left;
     width: 316px;
     height: 260px;
     margin-left: 14px;
 }
+*/
 
 .floatLeft{
     float: left;
@@ -78,4 +88,29 @@
 
 .horizon{
     margin-top: 30px;
+}
+
+.tileContent{
+    float: left;
+    width: 632px;
+    margin-top: 20px;
+}
+
+.clsTitle{
+    font-size: large;
+    font-weight: bold;
+    float: left;
+    padding-left: 45px;
+}
+
+.marginLeftCol{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 30px;
+}
+
+.imgTile{
+    height: 260px;
+    width: 300px;
+    float: left;
 }
