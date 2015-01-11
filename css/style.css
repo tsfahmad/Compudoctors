@@ -46,12 +46,6 @@ h3 {
     width: 1000px;
     margin-left: 190px;
 }
-
-#contact {
-    width: 245px;
-    margin: 0 auto;
-}
-
 #matter {
     margin-top: 2px;
     margin-bottom: 15px;
@@ -117,33 +111,6 @@ h3 {
     margin-left: 20px;
 }
 
-#divSales {
-    margin: 0 auto;
-    height: 90%;
-    width: 70%;
-    position: fixed;
-    background-color: rgb(255, 218, 246);
-}
-
-#maintain {
-    font-weight: bold;
-    position: absolute;
-    font-size: x-large;
-    text-shadow: 1px 1px 1px #000000;
-    margin-left: 300px;
-    margin-top: 300px;
-    color: rgb(108, 108, 108);
-}
-
-/*.clsTitle {
-    color: #b91818;
-    font-size: 18px;
-    font-weight: lighter;
-    text-align: left;
-    margin-left: 23px;
-    margin-top: 63px;
-
-}*/
 #clnt {
 
     width: 300px;
@@ -183,6 +150,62 @@ h3 {
     text-shadow: 2px 2px 1px burlywood;
 }
 
+.inputClass
+{
+    margin-left: 40px;
 
+}
+#enquiryform
+{
+    margin-left: -25px;
+    float: left;
+    margin-top: 200px;
+}
+#contact {
+    width: 245px;
+    margin: 0 auto;
+    margin-top: 200px;
+    float: right;
+    margin-right: 231px;
+}
+#pargcontact
+{
+    color: rgb(209, 65, 99);
 
+}
 
+.saleContainer{
+
+}
+
+.typeContainer{
+    height: 225px;
+    width: 425px;
+    color: white;
+    float: left;
+    background: linear-gradient(rgb(70, 67, 67), rgb(122, 115, 115));
+    margin-right: 19px;
+    box-shadow: 0px 0px 2px 3px blueviolet;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.typeContainer h3{
+    color: white;
+}
+.imgContainer{
+
+}
+
+.salesImg{
+    height: 120px;
+    width: 125px;
+}
+
+.iconContainer{
+    float: left;
+    transform: rotate(-8deg);
+    margin-right: 8px;
+    box-shadow: 0 0 4px 3px purple;
+}
