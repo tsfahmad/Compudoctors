@@ -2,6 +2,10 @@
     background: linear-gradient(rgb(229, 226, 226), white);
 }
 
+.logo {
+    height: 35px;
+    width: 160px;
+}
 #mainHeader {
     background: linear-gradient(rgb(229, 226, 226), white);
     height: 37px;
@@ -18,6 +22,15 @@
     line-height: 35px;
     color: slategrey;
     font-weight: bold;
+}
+
+.active {
+    background: linear-gradient(rgb(161, 161, 161), rgb(218, 218, 218));
+    color: white;
+    height: 34px;
+    margin-top: 2px;
+    cursor: pointer;
+    box-shadow: 0 -2px 0 0 #BC33FF inset;
 }
 
 .menu:hover {
@@ -99,7 +112,7 @@ h3 {
     float: left;
 }
 
-#matterAbout, #matterServices, #matterClients {
+#matterAbout, #matterServices, #matterClients, #matterContact {
     margin-top: 2px;
     margin-bottom: 15px;
     width: 95%;
@@ -122,7 +135,7 @@ h3 {
 }
 
 .clients {
-    background: linear-gradient(white, rgb(229, 226, 226));
+    background: linear-gradient(rgb(70, 67, 67), rgb(122, 115, 115));
     width: 800px;
     margin-top: 10px;
     height: 175px;
@@ -131,6 +144,7 @@ h3 {
     border-top-right-radius: 135px;
     box-shadow: 3px 2px 1px #888888;
     margin-bottom: 9px;
+    box-shadow: 0px 0px 2px 3px rgb(222, 187, 255);
 }
 
 
@@ -146,8 +160,7 @@ h3 {
     margin-top: 70px;
     font-weight: bold;
     font-size: 25px;
-    color: brown;
-    text-shadow: 2px 2px 1px burlywood;
+    color: white;
 }
 
 .inputClass
@@ -157,16 +170,14 @@ h3 {
 }
 #enquiryform
 {
-    margin-left: -25px;
+    margin-left: 25px;
     float: left;
-    margin-top: 200px;
 }
 #contact {
     width: 245px;
     margin: 0 auto;
-    margin-top: 200px;
     float: right;
-    margin-right: 231px;
+    margin-right: 225px;
 }
 #pargcontact
 {
@@ -185,10 +196,20 @@ h3 {
     float: left;
     background: linear-gradient(rgb(70, 67, 67), rgb(122, 115, 115));
     margin-right: 19px;
-    box-shadow: 0px 0px 2px 3px blueviolet;
+    box-shadow: 0px 0px 2px 3px rgb(222, 187, 255);
     padding-left: 42px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.typeLeft {
+    border-bottom-left-radius: 85px;
+    border-top-right-radius: 85px;
+}
+
+.typeRight {
+    border-bottom-right-radius: 85px;
+    border-top-left-radius: 85px;
 }
 
 .typeContainer h3{
@@ -207,5 +228,42 @@ h3 {
     float: left;
     transform: rotate(-8deg);
     margin-right: 8px;
-    box-shadow: 0 0 4px 3px purple;
+    box-shadow: 0 0 2px 2px rgb(200, 98, 200);
+}
+
+.mainTileImage {
+    height: 235px;
+    width: 930px;
+}
+
+#salesContent .mainTileImage {
+    height: 150px;
+    width: 950px;
+}
+
+#btn {
+    height: 30px;
+    width: 125px;
+    float: left;
+    background-color: rgb(64, 75, 194);
+    text-align: center;
+    line-height: 27px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.submitBtn{
+    margin-left: 117px;
+}
+
+.resetBtn {
+    margin-left: 15px;
+}
+
+#btn:hover {
+    background-color: rgb(88, 194, 65);
+    cursor: pointer;
 }
