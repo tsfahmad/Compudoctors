@@ -1,4 +1,4 @@
-.mainBody{
+.mainBody {
     background: linear-gradient(rgb(229, 226, 226), white);
 }
 
@@ -29,7 +29,7 @@
     box-shadow: 0 -2px 0 0 #BC33FF inset;
 }
 
-h3{
+h3 {
     color: purple;
 }
 
@@ -58,7 +58,7 @@ h3{
     width: 95%;
 }
 
-#bodyLeftCol, #bodyMdlCol, #bodyRightCol{
+#bodyLeftCol, #bodyMdlCol, #bodyRightCol {
     float: left;
     width: 937px;
     height: 260px;
@@ -67,56 +67,57 @@ h3{
     box-shadow: 0 0 3px 1px gainsboro;
 }
 
-#bodyLeftCol:hover, #bodyMdlCol:hover, #bodyRightCol:hover{
+#bodyLeftCol:hover, #bodyMdlCol:hover, #bodyRightCol:hover {
     box-shadow: 0 0 3px 2px rgb(235, 197, 253);;
 }
-.floatLeft{
+
+.floatLeft {
     float: left;
 }
 
-.horizon{
+.horizon {
     margin-top: 30px;
 }
 
-.tileContent{
+.tileContent {
     float: left;
     width: 632px;
     margin-top: 20px;
 }
 
-.clsTitle{
+.clsTitle {
     font-size: large;
     font-weight: bold;
     float: left;
     padding-left: 45px;
 }
 
-.marginLeftCol{
+.marginLeftCol {
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 30px;
     margin-top: 25px;
 }
 
-.imgTile{
+.imgTile {
     height: 260px;
     width: 300px;
     float: left;
 }
 
-#matterAbout{
+#matterAbout, #matterServices, #matterClients {
     margin-top: 2px;
     margin-bottom: 15px;
     width: 95%;
 }
 
-.aboutImg{
+.aboutImg {
     height: 195px;
     width: 265px;
     margin-left: 20px;
 }
 
-#divSales{
+#divSales {
     margin: 0 auto;
     height: 90%;
     width: 70%;
@@ -124,7 +125,7 @@ h3{
     background-color: rgb(255, 218, 246);
 }
 
-#maintain{
+#maintain {
     font-weight: bold;
     position: absolute;
     font-size: x-large;
@@ -133,3 +134,55 @@ h3{
     margin-top: 300px;
     color: rgb(108, 108, 108);
 }
+
+/*.clsTitle {
+    color: #b91818;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 63px;
+
+}*/
+#clnt {
+
+    width: 300px;
+    height: 300px;
+    background-color: rgba(238, 238, 197, 0.07);
+    text-align: right;
+    box-shadow: 0px 0px 0px #888888;
+    margin-left: 45px;
+}
+
+.clients {
+    background: linear-gradient(white, rgb(229, 226, 226));
+    width: 800px;
+    margin-top: 10px;
+    height: 175px;
+    margin-right: 20px;
+    border-bottom-left-radius: 135px;
+    border-top-right-radius: 135px;
+    box-shadow: 3px 2px 1px #888888;
+    margin-bottom: 9px;
+}
+
+
+.clientImage {
+    float: left;
+    height: 175px;
+    width: 513px;
+    border-bottom-left-radius: 132px;
+}
+.clientName {
+    float: left;
+    margin-left: 78px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 25px;
+    color: brown;
+    text-shadow: 2px 2px 1px burlywood;
+}
+
+
+
+
