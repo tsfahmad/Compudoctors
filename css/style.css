@@ -230,6 +230,16 @@ h3 {
     margin-right: 8px;
     box-shadow: 0 0 2px 2px rgb(200, 98, 200);
 }
+#footer
+{
+    width: 940px;
+    float: left;
+    margin-left: 190px;
+}
+
+.mrqe{
+    width: 935px;
+}
 
 .mainTileImage {
     height: 235px;
@@ -267,3 +277,4 @@ h3 {
     background-color: rgb(88, 194, 65);
     cursor: pointer;
 }
+
