@@ -29,6 +29,10 @@
     box-shadow: 0 -2px 0 0 #BC33FF inset;
 }
 
+h3{
+    color: purple;
+}
+
 #container {
     /*height: 92%;*/
     width: 100%;
@@ -55,9 +59,6 @@
 }
 
 #bodyLeftCol, #bodyMdlCol, #bodyRightCol{
-    /*float: left;
-    width: 316px;
-    /*height: 260px*//*;*/
     float: left;
     width: 937px;
     height: 260px;
@@ -66,22 +67,9 @@
     box-shadow: 0 0 3px 1px gainsboro;
 }
 
-/*#bodyMdlCol{
-    float: left;
-    width: 316px;
-    height: 260px;
-    margin-left: 14px;
-}*/
-
-/*
-#bodyRightCol{
-    float: left;
-    width: 316px;
-    height: 260px;
-    margin-left: 14px;
+#bodyLeftCol:hover, #bodyMdlCol:hover, #bodyRightCol:hover{
+    box-shadow: 0 0 3px 2px rgb(235, 197, 253);;
 }
-*/
-
 .floatLeft{
     float: left;
 }
@@ -107,10 +95,41 @@
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 30px;
+    margin-top: 25px;
 }
 
 .imgTile{
     height: 260px;
     width: 300px;
     float: left;
+}
+
+#matterAbout{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    width: 95%;
+}
+
+.aboutImg{
+    height: 195px;
+    width: 265px;
+    margin-left: 20px;
+}
+
+#divSales{
+    margin: 0 auto;
+    height: 90%;
+    width: 70%;
+    position: fixed;
+    background-color: rgb(255, 218, 246);
+}
+
+#maintain{
+    font-weight: bold;
+    position: absolute;
+    font-size: x-large;
+    text-shadow: 1px 1px 1px #000000;
+    margin-left: 300px;
+    margin-top: 300px;
+    color: rgb(108, 108, 108);
 }
