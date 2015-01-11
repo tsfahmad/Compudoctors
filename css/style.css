@@ -209,3 +209,13 @@ h3 {
     margin-right: 8px;
     box-shadow: 0 0 4px 3px purple;
 }
+#footer
+{
+    width: 940px;
+    float: left;
+    margin-left: 190px;
+}
+
+.mrqe{
+    width: 935px;
+}
