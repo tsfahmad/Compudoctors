@@ -9,5 +9,8 @@ $(document).ready(function () {
 
 function toggleContentDisplay(id) {
   $('.content').hide();
+  $('.menu').removeClass('active');
+  $('.menu[data-attr-content = ' + id + ']').addClass('active');
   $('#'+ id +'').show();
+
 }
