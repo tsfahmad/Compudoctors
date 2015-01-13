@@ -190,11 +190,24 @@ h3 {
     padding-left: 15px;
 }
 #contact {
-    width: 245px;
-    margin: 0 auto;
+    margin-right: -40px;
     float: right;
-    margin-right: 225px;
+    width: 475px;
+    height: 375px;
+    MARGIN-TOP: 0px;
+    box-shadow: 0 0 13px 5px rgb(144, 143, 153) inset;
+    background-color: rgb(79, 74, 74);
+    padding-right: 11px;
+
 }
+#heading
+  {
+      olor: coral;
+  }
+.address
+{
+        color: wheat;
+    }
 #pargcontact
 {
     color: rgb(209, 65, 99);
