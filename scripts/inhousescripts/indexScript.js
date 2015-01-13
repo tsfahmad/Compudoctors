@@ -1,5 +1,6 @@
 $(document).ready(function () {
   toggleContentDisplay('mainPage');
+  $('#imageSlider').load('slider.html');
   //$('#imageContainer').html('');
   $('.menu').click(function () {
     var $container = $(this);
