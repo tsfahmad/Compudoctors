@@ -168,13 +168,26 @@ h3 {
 .inputClass
 {
     margin-left: 40px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
 
 }
+
+.inputClass:focus {
+   box-shadow: 0 0 1px 2px lightskyblue;
+}
+
 #enquiryform
 {
     margin-left: 25px;
     float: left;
-    MARGIN-TOP: -32PX;
+    width: 475px;
+    height: 375px;
+    MARGIN-TOP: 0px;
+    box-shadow: 0 0 13px 5px rgb(144, 143, 153) inset;
+    background-color: rgb(79, 74, 74);
+    padding-left: 15px;
 }
 #contact {
     width: 245px;
@@ -240,8 +253,8 @@ h3 {
     margin-left: 190px;
 }
 
-.mrqe{
-    width: 935px;
+#footerMarque{
+    /*width: 935px;*/
 }
 
 .mainTileImage {
@@ -258,6 +271,7 @@ h3 {
     height: 30px;
     width: 125px;
     float: left;
+    margin-left: 18px;
     background-color: rgb(64, 75, 194);
     text-align: center;
     line-height: 27px;
@@ -268,11 +282,11 @@ h3 {
     border-radius: 5px;
 }
 
-.submitBtn{
-    margin-left: 117px;
+#submitBtn{
+    margin-left: 120px;
 }
 
-.resetBtn {
+#resetBtn {
     margin-left: 15px;
 }
 
@@ -282,9 +296,11 @@ h3 {
 }
 #latterquic
 {
-    MARGIN-LEFT: 39;
-    COLOR: RED;
-    font-family: cursive;
+    MARGIN-LEFT: 115;
+    COLOR: rgb(252, 85, 85);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 12px;
 }
 .copyright {
     margin-top: 55px;
@@ -297,4 +313,15 @@ h3 {
 #imageSlider {
     width: 980px;
     margin-left: -17px;
+}
+
+td {
+    color: white;
+    font-size: 16px;
+}
+
+#txtComments {
+    height: 89px;
+    width: 280px;
+    resize: none;
 }

@@ -1,6 +1,7 @@
 $(document).ready(function () {
   toggleContentDisplay('mainPage');
   $('#imageSlider').load('slider.html');
+  $('#footerMarque').load('footerLogo.html');
   //$('#imageContainer').html('');
   $('.menu').click(function () {
     var $container = $(this);
