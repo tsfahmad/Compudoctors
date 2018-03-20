@@ -1,7 +1,7 @@
 $(document).ready(function () {
   toggleContentDisplay('mainPage');
-  $('#imageSlider').load('slider.html');
-  $('#footerMarque').load('footerLogo.html');
+  $('#imageSlider').load('./html/slider.html');
+  $('#footerMarque').load('./html/footerLogo.html');
   //$('#imageContainer').html('');
   $('.menu').click(function () {
     var $container = $(this);
